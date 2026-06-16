@@ -27,22 +27,26 @@ function Contact() {
               <p className="mt-2 font-semibold text-slate-950">Newark, DE</p>
             </div>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/abhinav-reddy-terupally"
+              target="_blank"
+              rel="noreferrer"
               className="rounded-lg border border-slate-200 p-5 transition hover:border-indigo-300 hover:bg-indigo-50"
             >
               <span className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">
                 LinkedIn
               </span>
-              <p className="mt-2 font-semibold text-slate-950">Update LinkedIn URL</p>
+              <p className="mt-2 font-semibold text-slate-950">abhinav-reddy-terupally</p>
             </a>
             <a
-              href="#"
+              href="https://github.com/Abhitar3"
+              target="_blank"
+              rel="noreferrer"
               className="rounded-lg border border-slate-200 p-5 transition hover:border-indigo-300 hover:bg-indigo-50"
             >
               <span className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-500">
                 GitHub
               </span>
-              <p className="mt-2 font-semibold text-slate-950">Update GitHub URL</p>
+              <p className="mt-2 font-semibold text-slate-950">github.com/Abhitar3</p>
             </a>
           </div>
         </div>
