@@ -52,8 +52,26 @@ export const projects = [
     ],
     skills: ['LangChain', 'Semantic Router', 'SQLite', 'OpenAI', 'Streamlit', 'Selenium', 'Python'],
     links: [
-      { label: 'View GitHub', href: '#' },
+      { label: 'View GitHub', href: 'https://github.com/Abhitar3/Ecommerce_chatbot' },
       { label: 'View Demo', href: '#' },
+    ],
+  },
+  {
+    title: 'Intelligent Research Tool',
+    category: 'RAG | Streamlit | LangChain | ChromaDB',
+    status: 'Completed',
+    description:
+      'An AI-powered research assistant that ingests up to three URLs, builds a vector database from their content, and answers questions using a Retrieval-Augmented Generation pipeline. The app combines URL processing, chunking, embeddings, persistent Chroma storage, and Groq-powered answer generation in a simple Streamlit interface.',
+    features: [
+      'Built URL ingestion from Streamlit sidebar inputs',
+      'Added automatic chunking and embedding of scraped content',
+      'Used a persistent Chroma vector store for retrieval',
+      'Implemented question answering with ChatGroq and a custom prompt template',
+      'Designed a simple workflow for non-technical research use cases',
+    ],
+    skills: ['Python', 'Streamlit', 'LangChain', 'ChromaDB', 'Hugging Face', 'Groq', 'RAG'],
+    links: [
+      { label: 'View GitHub', href: 'https://github.com/Abhitar3/intelligent-research-tool' },
     ],
   },
   {
