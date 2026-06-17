@@ -116,7 +116,10 @@ export const projects = [
       'A model comparison project using an abstractive summarization dataset of 55K Inshorts article-summary pairs. Fine-tuned T5-small and GPT-2 models and compared performance using ROUGE and BERTScore.',
     features: [],
     skills: ['Python', 'T5', 'GPT-2', 'Fine-tuning', 'Hugging Face', 'ROUGE', 'BERTScore'],
-    links: [{ label: 'View GitHub', href: '#' }],
+    links: [
+      { label: 'View GitHub', href: 'https://github.com/Abhitar3/News-Summarization-Model-Comparison' },
+      { label: 'View Poster', href: 'https://github.com/Abhitar3/News-Summarization-Model-Comparison/blob/main/Final_Poster.pdf' },
+    ],
   },
   {
     title: 'Image Classification Pipeline with EfficientNet',

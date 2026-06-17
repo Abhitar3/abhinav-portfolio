@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 powerbi-project-upload/
+summarization-project-upload/
 
 # Editor directories and files
 .vscode/*
