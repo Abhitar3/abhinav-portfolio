@@ -79,14 +79,14 @@ export const projects = [
     category: 'Research | NLP | LLM Systems | LangChain',
     status: 'Current Research',
     description:
-      'An ongoing research pipeline that converts developer discussions into structured Entity-Aspect-Sentiment triples for downstream analysis. The system processes Stack Overflow-style text, extracts software entities, classifies aspect categories such as performance, usability, and documentation, assigns sentiment, and compares predictions against human annotations to guide prompt refinement and error analysis.',
+      'An ongoing NLP/LLM research pipeline for transforming Stack Overflow-style developer discussions into auditable Entity-Aspect-Sentiment triples. The work focuses on schema-constrained extraction, sentence-level processing, software entity mention tracking, aspect and sentiment classification, and comparison against human annotations to study model errors and refine prompts.',
     features: [
-      'Built JSON-first workflows for structured NLP outputs',
-      'Designed LangChain/OpenAI prompts for entity, aspect, and sentiment classification',
-      'Implemented HTML stripping, NLTK sentence splitting, and entity mention tracking',
-      'Developed post-level coreference experiments for resolving referring expressions',
-      'Added retries, schema validation, deduplication, timing, and debug traces',
-      'Performed annotation comparison and error analysis for prompt refinement',
+      'Built JSON-first extraction workflows with schema validation for structured NLP outputs',
+      'Designed LangChain/OpenAI prompt chains for software entity extraction, aspect classification, and sentiment labeling',
+      'Implemented preprocessing with HTML stripping, NLTK sentence segmentation, and sentence-level triple assembly',
+      'Developed entity mention tracking and post-level coreference experiments for resolving referring expressions',
+      'Added retries, deduplication, timing logs, debug traces, and failure-case inspection utilities',
+      'Compared system predictions with human annotations to analyze boundary cases and refine prompts',
     ],
     skills: [
       'Python',
