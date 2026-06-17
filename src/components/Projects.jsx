@@ -8,7 +8,6 @@ function Projects() {
         <SectionHeader
           eyebrow="Projects"
           title="Selected AI and data science work"
-          description="Reusable project cards with editable data in src/data/projects.js."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           {projects.map((project) => (

@@ -4,7 +4,7 @@ function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">
-            Applied AI Portfolio
+            Applied AI & Data Science
           </p>
           <h1 className="mt-5 max-w-4xl text-4xl font-bold leading-tight text-white sm:text-6xl">
             Abhinav Reddy Terupally

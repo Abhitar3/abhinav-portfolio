@@ -8,7 +8,6 @@ function Skills() {
         <SectionHeader
           eyebrow="Skills"
           title="Tools for data, models, apps, and evaluation"
-          description="Grouped technical skills across analytics, ML, GenAI systems, backend APIs, and cloud workflows."
         />
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {skills.map((skillGroup) => (
