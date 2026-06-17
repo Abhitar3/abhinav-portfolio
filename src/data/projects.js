@@ -33,7 +33,7 @@ export const projects = [
     ],
     skills: ['Python', 'FastAPI', 'Next.js', 'LangGraph', 'ChromaDB', 'RAG', 'Pydantic'],
     links: [
-      { label: 'View GitHub', href: '#' },
+      { label: 'View GitHub', href: 'https://github.com/Abhitar3/SanjayaAi' },
       { label: 'View Demo', href: '#' },
     ],
   },
