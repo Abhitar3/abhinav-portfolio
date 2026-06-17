@@ -32,10 +32,7 @@ export const projects = [
       'Added Pydantic schema checks for reliable structured outputs',
     ],
     skills: ['Python', 'FastAPI', 'Next.js', 'LangGraph', 'ChromaDB', 'RAG', 'Pydantic'],
-    links: [
-      { label: 'View GitHub', href: 'https://github.com/Abhitar3/SanjayaAi' },
-      { label: 'View Demo', href: '#' },
-    ],
+    links: [{ label: 'View GitHub', href: 'https://github.com/Abhitar3/SanjayaAi' }],
   },
   {
     title: 'E-Commerce Chatbot with Multi-Intent Classification',
@@ -51,10 +48,7 @@ export const projects = [
       'Reached 90% FAQ accuracy on paraphrase tests',
     ],
     skills: ['LangChain', 'Semantic Router', 'SQLite', 'OpenAI', 'Streamlit', 'Selenium', 'Python'],
-    links: [
-      { label: 'View GitHub', href: 'https://github.com/Abhitar3/Ecommerce_chatbot' },
-      { label: 'View Demo', href: '#' },
-    ],
+    links: [{ label: 'View GitHub', href: 'https://github.com/Abhitar3/Ecommerce_chatbot' }],
   },
   {
     title: 'Intelligent Research Tool',
