@@ -126,9 +126,12 @@ export const projects = [
     category: 'Computer Vision | PyTorch | Transfer Learning',
     status: 'Completed',
     description:
-      'An anime face recognition system using EfficientNet transfer learning for multi-class classification. Improved generalization with augmentation, dropout, and early stopping, achieving 92.4% validation accuracy.',
+      'An anime character recognition system using EfficientNet-B0 transfer learning for multi-class image classification. The project compares classical machine learning baselines with deep learning approaches and uses the Kaggle anime character dataset through kagglehub for reproducible data access.',
     features: [],
     skills: ['Python', 'PyTorch', 'EfficientNet', 'Transfer Learning', 'Data Augmentation'],
-    links: [{ label: 'View GitHub', href: '#' }],
+    links: [
+      { label: 'View GitHub', href: 'https://github.com/Abhitar3/Anime-Character-Classification-EfficientNet' },
+      { label: 'View Presentation', href: 'https://github.com/Abhitar3/Anime-Character-Classification-EfficientNet/blob/main/MATH637_PPT.pdf' },
+    ],
   },
 ]
