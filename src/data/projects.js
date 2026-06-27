@@ -48,7 +48,10 @@ export const projects = [
       'Reached 90% FAQ accuracy on paraphrase tests',
     ],
     skills: ['LangChain', 'Semantic Router', 'SQLite', 'OpenAI', 'Streamlit', 'Selenium', 'Python'],
-    links: [{ label: 'View GitHub', href: 'https://github.com/Abhitar3/Ecommerce_chatbot' }],
+    links: [
+      { label: 'View GitHub', href: 'https://github.com/Abhitar3/Ecommerce_chatbot' },
+      { label: 'Live Demo', href: 'https://abhitar-ecommerce-chatbot.streamlit.app/' },
+    ],
   },
   {
     title: 'Intelligent Research Tool',
