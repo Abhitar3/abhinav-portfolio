@@ -4,14 +4,14 @@ export const projects = [
     category: 'Power BI | Data Analytics | AI Adoption Analysis',
     status: 'Completed',
     description:
-      'Built an interactive Power BI dashboard using the Stack Overflow Developer Survey 2025 to analyze how developers are adapting to AI. Cleaned and modeled 48K+ survey responses, created a 3-table relationship model, developed DAX measures, and visualized AI learning, AI-agent usage, sentiment, compensation, job satisfaction, programming languages, and AI model adoption. Key findings showed that AI exposure is strongly linked with positive AI sentiment, while compensation is driven more by experience and developer role than AI attitudes alone.',
+      'An interactive Power BI project analyzing the Stack Overflow Developer Survey 2025 to understand how developers are adapting to AI in the workplace. The report explores developer profiles, AI learning, AI-agent usage, AI sentiment, compensation, job satisfaction, programming languages, and AI model preferences across roles, experience levels, education backgrounds, and industries. The project uses a cleaned and focused dataset of 48K+ respondents, with separate respondent, language, and AI model tables to support interactive cross-filtering. It also includes DAX measures, experience and compensation groupings, industry-based comparisons, and a Sankey flow visual connecting AI learning, AI-agent usage, and AI sentiment.',
     features: [
-      'Analyzed 48K+ developer survey responses from Stack Overflow Developer Survey 2025',
-      'Built a 3-table Power BI model for respondent, language, and AI model analysis',
-      'Created DAX measures for AI learning, AI-agent usage, compensation, sentiment, and job satisfaction',
-      'Designed interactive dashboards for AI adoption, developer profiles, compensation, and technology usage',
-      'Used Sankey flow analysis to connect AI learning, AI-agent usage, and AI sentiment',
-      'Found that AI exposure is linked with positive sentiment, while compensation is driven more by experience and role',
+      'AI learning is already common among developers: about 67% reported learning AI, while 31% reported using AI agents',
+      'AI exposure is strongly connected to positive sentiment among developers who learned AI or used AI agents',
+      'Developers showed cautious optimism, often rating AI as good but not fully reliable for complex tasks',
+      'Threat perception was limited overall but higher among students and not-employed respondents',
+      'Compensation was influenced more by experience and role than AI sentiment alone',
+      'OpenAI GPT was the most used AI model, followed by Claude, Gemini, OpenAI Reasoning, and Llama in industry-level comparisons',
     ],
     skills: ['Power BI', 'DAX', 'Data Cleaning', 'Data Modeling', 'Survey Analysis', 'Data Visualization'],
     links: [
