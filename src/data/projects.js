@@ -4,13 +4,14 @@ export const projects = [
     category: 'Power BI | Data Analytics | AI Adoption Analysis',
     status: 'Completed',
     description:
-      'An interactive Power BI project analyzing the Stack Overflow Developer Survey 2025 to understand developer profiles, AI adoption, AI sentiment, job satisfaction, compensation, programming languages, and AI model usage. The project includes data cleaning, dimensional modeling, DAX measures, Sankey flow analysis, and industry-based AI model comparisons.',
+      'Built an interactive Power BI dashboard using the Stack Overflow Developer Survey 2025 to analyze how developers are adapting to AI. Cleaned and modeled 48K+ survey responses, created a 3-table relationship model, developed DAX measures, and visualized AI learning, AI-agent usage, sentiment, compensation, job satisfaction, programming languages, and AI model adoption. Key findings showed that AI exposure is strongly linked with positive AI sentiment, while compensation is driven more by experience and developer role than AI attitudes alone.',
     features: [
-      'Cleaned and transformed a large real-world survey dataset',
-      'Built a 3-table Power BI model with respondent, language, and AI model tables',
-      'Created DAX measures for AI learning, AI-agent usage, compensation, and job satisfaction',
-      'Analyzed how developer role, experience, education, and industry relate to AI adoption',
-      'Designed dashboard pages for respondent profile, AI perception, compensation, technology usage, and AI learning flow',
+      'Analyzed 48K+ developer survey responses from Stack Overflow Developer Survey 2025',
+      'Built a 3-table Power BI model for respondent, language, and AI model analysis',
+      'Created DAX measures for AI learning, AI-agent usage, compensation, sentiment, and job satisfaction',
+      'Designed interactive dashboards for AI adoption, developer profiles, compensation, and technology usage',
+      'Used Sankey flow analysis to connect AI learning, AI-agent usage, and AI sentiment',
+      'Found that AI exposure is linked with positive sentiment, while compensation is driven more by experience and role',
     ],
     skills: ['Power BI', 'DAX', 'Data Cleaning', 'Data Modeling', 'Survey Analysis', 'Data Visualization'],
     links: [
