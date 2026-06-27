@@ -10,12 +10,12 @@ function Hero() {
             Abhinav Reddy Terupally
           </h1>
           <p className="mt-5 max-w-3xl text-xl font-medium leading-8 text-slate-200">
-            Applied AI & Data Science Graduate | Machine Learning | NLP/LLM Systems | Analytics
+            Data Science Graduate | Machine Learning | NLP/LLM Workflows | Analytics
           </p>
           <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 sm:text-lg">
             I build applied machine learning, data science, and AI projects across NLP, LLM
-            systems, analytics, RAG, and model evaluation. My work focuses on turning complex
-            datasets and research ideas into reliable, explainable, and useful systems.
+            workflows, analytics, RAG, and model evaluation. My work focuses on turning complex
+            datasets and research ideas into reliable, explainable, and useful applications.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
@@ -45,9 +45,9 @@ function Hero() {
           <div className="grid gap-4">
             {[
               ['Focus', 'ML, NLP, RAG, analytics, model evaluation'],
-              ['Systems', 'LangGraph, FastAPI, Pydantic, ChromaDB'],
-              ['Analytics', 'Power BI dashboards, DAX, survey modeling'],
-              ['AI Safety', 'Responsible AI, guardrails, jailbreak analysis'],
+              ['AI Apps', 'Chatbots, advising tools, research assistants'],
+              ['Analytics', 'Power BI dashboards, DAX, survey insights'],
+              ['Responsible AI', 'Prompt safety, guardrails, jailbreak analysis'],
             ].map(([label, value]) => (
               <div key={label} className="rounded-lg bg-white p-5 transition hover:-translate-y-1">
                 <p className="text-sm font-semibold uppercase tracking-[0.16em] text-indigo-600">
