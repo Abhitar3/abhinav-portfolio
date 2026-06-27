@@ -10,12 +10,12 @@ function Hero() {
             Abhinav Reddy Terupally
           </h1>
           <p className="mt-5 max-w-3xl text-xl font-medium leading-8 text-slate-200">
-            Applied AI & Data Science Graduate | NLP/LLM Systems | Power BI | Responsible AI
+            Applied AI & Data Science Graduate | Machine Learning | NLP/LLM Systems | Analytics
           </p>
           <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 sm:text-lg">
-            I build production-minded AI and data science projects across NLP, LLM systems,
-            analytics, RAG, model evaluation, and responsible AI. My work focuses on turning
-            complex datasets and research ideas into reliable, explainable, and useful systems.
+            I build applied machine learning, data science, and AI projects across NLP, LLM
+            systems, analytics, RAG, and model evaluation. My work focuses on turning complex
+            datasets and research ideas into reliable, explainable, and useful systems.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
@@ -44,7 +44,7 @@ function Hero() {
         <div className="rounded-lg border border-white/10 bg-white/10 p-6 shadow-2xl shadow-black/30 backdrop-blur">
           <div className="grid gap-4">
             {[
-              ['Focus', 'NLP, RAG, analytics, model evaluation'],
+              ['Focus', 'ML, NLP, RAG, analytics, model evaluation'],
               ['Systems', 'LangGraph, FastAPI, Pydantic, ChromaDB'],
               ['Analytics', 'Power BI dashboards, DAX, survey modeling'],
               ['AI Safety', 'Responsible AI, guardrails, jailbreak analysis'],

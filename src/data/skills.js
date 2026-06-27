@@ -1,7 +1,7 @@
 export const skills = [
   {
-    group: 'Programming & Data',
-    items: ['Python', 'SQL', 'R', 'C', 'JSON', 'pandas', 'NumPy'],
+    group: 'Programming',
+    items: ['Python', 'SQL', 'R', 'C'],
   },
   {
     group: 'Machine Learning / Deep Learning',
@@ -38,7 +38,7 @@ export const skills = [
     ],
   },
   {
-    group: 'APIs / Backend / MLOps',
+    group: 'APIs / Backend / AI Apps',
     items: ['FastAPI', 'REST APIs', 'Pydantic', 'Streamlit', 'Docker', 'Airflow', 'MLflow'],
   },
   {
