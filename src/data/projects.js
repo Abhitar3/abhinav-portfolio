@@ -1,6 +1,7 @@
 export const projects = [
   {
     title: 'Developer Experience in the AI Era: Power BI Analysis of Stack Overflow Developer Survey 2025',
+    group: 'Data Analysis',
     category: 'Power BI | Data Analytics | AI Adoption Analysis',
     status: 'Completed',
     description:
@@ -22,6 +23,7 @@ export const projects = [
   },
   {
     title: 'Sanjaya AI: AI Advising Platform',
+    group: 'Generative AI',
     category: 'AI Systems | RAG | LangGraph | FastAPI',
     status: 'Completed / In Progress',
     description:
@@ -37,6 +39,7 @@ export const projects = [
   },
   {
     title: 'E-Commerce Chatbot with Multi-Intent Classification',
+    group: 'Generative AI',
     category: 'LLM App | Semantic Routing | NL-to-SQL | Streamlit',
     status: 'Completed',
     description:
@@ -69,6 +72,7 @@ export const projects = [
   },
   {
     title: 'Intelligent Research Tool',
+    group: 'Generative AI',
     category: 'RAG | Streamlit | LangChain | ChromaDB',
     status: 'Completed',
     description:
@@ -87,6 +91,7 @@ export const projects = [
   },
   {
     title: 'NLP/LLM Research Pipeline for Entity-Aspect-Sentiment Extraction',
+    group: 'NLP',
     category: 'Research | NLP | LLM Systems | LangChain',
     status: 'Current Research',
     description:
@@ -115,6 +120,7 @@ export const projects = [
   },
   {
     title: 'Jailbreak Risk Analyzer',
+    group: 'Generative AI',
     category: 'Responsible AI | LLM Safety | Prompt Analysis',
     status: 'Current Work',
     description:
@@ -141,6 +147,7 @@ export const projects = [
   },
   {
     title: 'News Summarization Model Comparison',
+    group: 'NLP',
     category: 'NLP | Deep Learning | Model Evaluation',
     status: 'Completed',
     description:
@@ -154,6 +161,7 @@ export const projects = [
   },
   {
     title: 'Image Classification Pipeline with EfficientNet',
+    group: 'Machine Learning',
     category: 'Computer Vision | PyTorch | Transfer Learning',
     status: 'Completed',
     description:
