@@ -41,7 +41,7 @@ function Projects() {
                       {group.description}
                     </p>
                   </div>
-                  <span className="text-sm font-semibold text-cyan-300">
+                  <span className="text-sm font-semibold text-[#E0C36A]">
                     {groupProjects.length} {groupProjects.length === 1 ? 'project' : 'projects'}
                   </span>
                 </div>
@@ -53,10 +53,10 @@ function Projects() {
                       className="flex flex-col rounded-lg border border-white/10 bg-white p-6 shadow-xl shadow-black/20 transition hover:-translate-y-1 hover:shadow-2xl"
                     >
                       <div className="flex flex-wrap items-center justify-between gap-3">
-                        <p className="text-sm font-semibold uppercase tracking-[0.16em] text-indigo-600">
+                        <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#9A7A22]">
                           {project.category}
                         </p>
-                        <span className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-bold text-emerald-700">
+                        <span className="rounded-full bg-[#F8F1D5] px-3 py-1 text-xs font-bold text-[#6F5514]">
                           {project.status}
                         </span>
                       </div>
@@ -70,7 +70,7 @@ function Projects() {
                         <ul className="mt-5 space-y-2 text-sm leading-6 text-slate-700">
                           {project.features.map((feature) => (
                             <li key={feature} className="flex gap-2">
-                              <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-500" />
+                              <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#C9A646]" />
                               <span>{feature}</span>
                             </li>
                           ))}
@@ -80,7 +80,7 @@ function Projects() {
                         {project.skills.map((skill) => (
                           <span
                             key={skill}
-                            className="rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700"
+                            className="rounded-full bg-[#F8F1D5] px-3 py-1 text-xs font-semibold text-[#7A5D14]"
                           >
                             {skill}
                           </span>
@@ -93,7 +93,7 @@ function Projects() {
                             href={link.href}
                             target={link.href.startsWith('#') ? undefined : '_blank'}
                             rel={link.href.startsWith('#') ? undefined : 'noreferrer'}
-                            className="rounded-full border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-800 transition hover:border-indigo-400 hover:bg-indigo-50"
+                            className="rounded-full border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-800 transition hover:border-[#C9A646] hover:bg-[#F8F1D5]"
                           >
                             {link.label}
                           </a>

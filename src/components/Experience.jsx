@@ -18,7 +18,7 @@ function Experience() {
               <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-start">
                 <div>
                   <h3 className="text-2xl font-semibold text-slate-950">{role.title}</h3>
-                  <p className="mt-1 text-base font-semibold text-indigo-700">{role.organization}</p>
+                  <p className="mt-1 text-base font-semibold text-[#8A6A18]">{role.organization}</p>
                 </div>
                 <p className="rounded-full bg-slate-100 px-4 py-2 text-sm font-semibold text-slate-700">
                   {role.date}
@@ -27,7 +27,7 @@ function Experience() {
               <ul className="mt-5 space-y-3 text-base leading-7 text-slate-700">
                 {role.bullets.map((bullet) => (
                   <li key={bullet} className="flex gap-3">
-                    <span className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-500" />
+                    <span className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-[#C9A646]" />
                     <span>{bullet}</span>
                   </li>
                 ))}

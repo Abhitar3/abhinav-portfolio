@@ -3,7 +3,7 @@ function Hero() {
     <section id="home" className="relative px-5 py-20 sm:px-6 sm:py-24 lg:px-8">
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">
+          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#E0C36A]">
             Applied AI & Data Science
           </p>
           <h1 className="mt-5 max-w-4xl text-4xl font-bold leading-tight text-white sm:text-6xl">
@@ -20,7 +20,7 @@ function Hero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#projects"
-              className="rounded-full bg-cyan-300 px-6 py-3 text-center text-sm font-bold text-slate-950 shadow-lg shadow-cyan-950/30 transition hover:-translate-y-0.5 hover:bg-cyan-200"
+              className="rounded-full bg-[#C9A646] px-6 py-3 text-center text-sm font-bold text-[#071126] shadow-lg shadow-black/30 transition hover:-translate-y-0.5 hover:bg-[#E0C36A]"
             >
               View Projects
             </a>
@@ -28,13 +28,13 @@ function Hero() {
               href="/Abhinav_Reddy_Resume.pdf"
               target="_blank"
               rel="noreferrer"
-              className="rounded-full border border-white/20 px-6 py-3 text-center text-sm font-bold text-white transition hover:-translate-y-0.5 hover:border-white/40 hover:bg-white/10"
+              className="rounded-full border border-[#C9A646]/40 px-6 py-3 text-center text-sm font-bold text-white transition hover:-translate-y-0.5 hover:border-[#E0C36A] hover:bg-[#C9A646]/10"
             >
               Download Resume
             </a>
             <a
               href="#contact"
-              className="rounded-full border border-purple-300/40 px-6 py-3 text-center text-sm font-bold text-purple-100 transition hover:-translate-y-0.5 hover:border-purple-200 hover:bg-purple-300/10"
+              className="rounded-full border border-white/20 px-6 py-3 text-center text-sm font-bold text-slate-100 transition hover:-translate-y-0.5 hover:border-[#C9A646]/70 hover:bg-white/10"
             >
               Contact Me
             </a>
@@ -50,7 +50,7 @@ function Hero() {
               ['Responsible AI', 'Prompt safety, guardrails, jailbreak analysis'],
             ].map(([label, value]) => (
               <div key={label} className="rounded-lg bg-white p-5 transition hover:-translate-y-1">
-                <p className="text-sm font-semibold uppercase tracking-[0.16em] text-indigo-600">
+                <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#9A7A22]">
                   {label}
                 </p>
                 <p className="mt-2 text-base font-semibold text-slate-900">{value}</p>

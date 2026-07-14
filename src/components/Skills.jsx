@@ -20,7 +20,7 @@ function Skills() {
                 {skillGroup.items.map((item) => (
                   <span
                     key={item}
-                    className="rounded-full bg-slate-100 px-3 py-1.5 text-sm font-medium text-slate-700"
+                    className="rounded-full bg-[#F8F1D5] px-3 py-1.5 text-sm font-medium text-[#6F5514]"
                   >
                     {item}
                   </span>

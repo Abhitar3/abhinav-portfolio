@@ -9,7 +9,7 @@ const navItems = [
 
 function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#07111f]/85 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-[#C9A646]/20 bg-[#050914]/90 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 sm:px-6 lg:px-8">
         <a href="#home" className="text-base font-semibold text-white sm:text-lg">
           Abhinav Reddy Terupally
@@ -19,7 +19,7 @@ function Navbar() {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-slate-300 transition hover:text-cyan-200"
+              className="text-sm font-medium text-slate-300 transition hover:text-[#E0C36A]"
             >
               {item.label}
             </a>
@@ -29,7 +29,7 @@ function Navbar() {
           href="/Abhinav_Reddy_Resume.pdf"
           target="_blank"
           rel="noreferrer"
-          className="rounded-full border border-cyan-300/50 px-4 py-2 text-sm font-semibold text-cyan-100 transition hover:border-cyan-200 hover:bg-cyan-300/10"
+          className="rounded-full border border-[#C9A646]/60 px-4 py-2 text-sm font-semibold text-[#F5E6B1] transition hover:border-[#E0C36A] hover:bg-[#C9A646]/10"
         >
           Resume
         </a>
@@ -39,7 +39,7 @@ function Navbar() {
           <a
             key={item.href}
             href={item.href}
-            className="shrink-0 font-medium text-slate-300 transition hover:text-cyan-200"
+            className="shrink-0 font-medium text-slate-300 transition hover:text-[#E0C36A]"
           >
             {item.label}
           </a>

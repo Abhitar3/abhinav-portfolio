@@ -10,7 +10,7 @@ import Skills from './components/Skills'
 
 function App() {
   return (
-    <div className="min-h-screen overflow-hidden bg-[radial-gradient(circle_at_top_left,rgba(79,70,229,0.32),transparent_30%),radial-gradient(circle_at_80%_20%,rgba(14,165,233,0.2),transparent_26%),linear-gradient(135deg,#07111f_0%,#101827_46%,#21123a_100%)] text-slate-950">
+    <div className="min-h-screen overflow-hidden bg-[radial-gradient(circle_at_top_left,rgba(201,166,70,0.22),transparent_30%),radial-gradient(circle_at_80%_20%,rgba(224,195,106,0.16),transparent_26%),linear-gradient(135deg,#050914_0%,#0B132B_48%,#121B36_100%)] text-slate-950">
       <Navbar />
       <main>
         <Hero />
