@@ -12,7 +12,7 @@ const projectGroups = [
   },
   {
     name: 'Machine Learning',
-    description: 'Model training, transfer learning, evaluation, and future MLOps-focused workflows.',
+    description: 'Model training, transfer learning, evaluation, API serving, Docker packaging, and MLOps workflows.',
   },
   {
     name: 'Data Analysis',

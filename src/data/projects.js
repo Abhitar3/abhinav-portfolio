@@ -22,6 +22,36 @@ export const projects = [
     ],
   },
   {
+    title: 'Explainable Medicare Provider Billing Anomaly Detection',
+    group: 'Data Analysis',
+    category: 'Healthcare Analytics | Anomaly Detection | Peer-Aware Modeling',
+    status: 'Completed',
+    description:
+      'An explainable, peer-aware anomaly detection workflow for Medicare provider billing data. The project combines CMS national provider-level records with Delaware provider-service data, engineers peer-relative behavioral features, and ranks unusual billing profiles for review without treating model flags as confirmed fraud.',
+    features: [
+      'Processed 1.29M+ national provider records and 40K+ Delaware provider-service records',
+      'Matched 4,680 providers across CMS datasets and engineered 11 peer-relative behavioral features',
+      'Trained Isolation Forest and Local Outlier Factor models for unsupervised billing anomaly detection',
+      'Achieved 92.55% average flagged-set overlap and 0.9897 average Spearman correlation across Isolation Forest random seeds',
+      'Identified 25 providers flagged by both models and produced provider-level explanations for anomaly drivers',
+      'Excluded provider identifiers and final review lists from the public repo for ethical use and privacy-conscious sharing',
+    ],
+    skills: [
+      'Python',
+      'pandas',
+      'NumPy',
+      'scikit-learn',
+      'Isolation Forest',
+      'Local Outlier Factor',
+      'Anomaly Detection',
+      'Healthcare Analytics',
+      'Data Validation',
+    ],
+    links: [
+      { label: 'View GitHub', href: 'https://github.com/Abhitar3/medicare-billing-anomaly-detection' },
+    ],
+  },
+  {
     title: 'Sanjaya AI: AI Advising Platform',
     group: 'Generative AI',
     category: 'AI Systems | RAG | LangGraph | FastAPI',
@@ -167,6 +197,37 @@ export const projects = [
     links: [
       { label: 'View GitHub', href: 'https://github.com/Abhitar3/News-Summarization-Model-Comparison' },
       { label: 'View Poster', href: 'https://github.com/Abhitar3/News-Summarization-Model-Comparison/blob/main/Final_Poster.pdf' },
+    ],
+  },
+  {
+    title: 'Customer Churn MLOps Pipeline',
+    group: 'Machine Learning',
+    category: 'MLOps | XGBoost | FastAPI | Docker | CI/CD',
+    status: 'Completed',
+    description:
+      'An end-to-end MLOps project for Telco customer churn prediction that moves from notebook experimentation to a reproducible training pipeline, MLflow experiment tracking, FastAPI model serving, Docker packaging, Docker Hub publishing, and GitHub Actions CI/CD.',
+    features: [
+      'Tracked experiments, metrics, parameters, and model artifacts with MLflow',
+      'Selected XGBoost based on recall, precision, F1-score, ROC-AUC, and prediction-time tradeoffs',
+      'Modularized data loading, preprocessing, feature engineering, validation, training, and serving code',
+      'Built a FastAPI backend with a /predict endpoint for churn prediction',
+      'Packaged the finalized model and API in Docker and pushed the image to Docker Hub',
+      'Added GitHub Actions CI/CD to run tests, build the Docker image, and push it automatically',
+    ],
+    skills: [
+      'Python',
+      'pandas',
+      'scikit-learn',
+      'XGBoost',
+      'Optuna',
+      'MLflow',
+      'FastAPI',
+      'Docker',
+      'pytest',
+      'GitHub Actions',
+    ],
+    links: [
+      { label: 'View GitHub', href: 'https://github.com/Abhitar3/Customer-Churn-MLOps-Pipeline' },
     ],
   },
   {
