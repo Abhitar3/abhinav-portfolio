@@ -23,8 +23,8 @@ export const projects = [
   },
   {
     title: 'Explainable Medicare Provider Billing Anomaly Detection',
-    group: 'Data Analysis',
-    category: 'Healthcare Analytics | Anomaly Detection | Peer-Aware Modeling',
+    group: 'Machine Learning',
+    category: 'ML Pipeline | Anomaly Detection | Peer-Aware Modeling',
     status: 'Completed',
     description:
       'An explainable, peer-aware anomaly detection workflow for Medicare provider billing data. The project combines CMS national provider-level records with Delaware provider-service data, engineers peer-relative behavioral features, and ranks unusual billing profiles for review without treating model flags as confirmed fraud.',
