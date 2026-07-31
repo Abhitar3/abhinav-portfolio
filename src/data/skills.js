@@ -38,8 +38,8 @@ export const skills = [
     ],
   },
   {
-    group: 'APIs / Backend / AI Apps',
-    items: ['FastAPI', 'REST APIs', 'Pydantic', 'Streamlit', 'Docker', 'Airflow', 'MLflow'],
+    group: 'MLOps / Backend Serving',
+    items: ['FastAPI', 'REST APIs', 'Pydantic', 'Streamlit', 'Docker', 'MLflow', 'pytest', 'GitHub Actions'],
   },
   {
     group: 'Cloud / Databases',

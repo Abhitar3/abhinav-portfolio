@@ -10,12 +10,13 @@ function Hero() {
             Abhinav Reddy Terupally
           </h1>
           <p className="mt-5 max-w-3xl text-xl font-medium leading-8 text-slate-200">
-            Data Science Graduate | Machine Learning | NLP/LLM Workflows | Analytics
+            Data Science Graduate | Machine Learning | MLOps | NLP/LLM Workflows | Analytics
           </p>
           <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 sm:text-lg">
-            I build applied machine learning, data science, and AI projects across NLP, LLM
-            workflows, analytics, RAG, and model evaluation. My work focuses on turning complex
-            datasets and research ideas into reliable, explainable, and useful applications.
+            I build applied machine learning, data science, and AI projects across model training,
+            API serving, MLOps workflows, NLP, LLM systems, RAG, analytics, and model evaluation.
+            My work focuses on turning datasets and research ideas into reliable, explainable, and
+            useful applications.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
@@ -45,9 +46,9 @@ function Hero() {
           <div className="grid gap-4">
             {[
               ['Focus', 'ML, NLP, RAG, analytics, model evaluation'],
-              ['AI Apps', 'Chatbots, advising tools, research assistants'],
+              ['Backend Serving', 'FastAPI, Docker, CI/CD, MLflow workflows'],
               ['Analytics', 'Power BI dashboards, DAX, survey insights'],
-              ['Responsible AI', 'Prompt safety, guardrails, jailbreak analysis'],
+              ['AI Apps', 'Chatbots, advising tools, research assistants'],
             ].map(([label, value]) => (
               <div key={label} className="rounded-lg bg-white p-5 transition hover:-translate-y-1">
                 <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[#9A7A22]">

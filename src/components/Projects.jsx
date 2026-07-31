@@ -4,7 +4,7 @@ import SectionHeader from './SectionHeader'
 const projectGroups = [
   {
     name: 'Generative AI',
-    description: 'LLM applications, RAG systems, AI agents, guardrails, and deployed assistant workflows.',
+    description: 'LLM applications, RAG systems, AI agents, and deployed assistant workflows.',
   },
   {
     name: 'NLP',
