@@ -11,13 +11,13 @@ export const experience = [
     ],
   },
   {
-    title: 'Data Science Intern',
+    title: 'Machine Learning Intern',
     organization: 'Edureka, India',
     date: 'Aug 2023 - Aug 2024',
     bullets: [
-      'Built a global country-year ML prototype for climate-policy analysis using economic, emissions, agriculture, and carbon pricing datasets.',
-      'Trained an LSTM forecasting model that reduced test error by around 40% for next-year carbon pricing revenue prediction.',
-      'Applied Random Forest anomaly detection, crop production modeling, and K-means clustering to identify interpretable policy and economic patterns.',
+      'Developed a country-year ML pipeline across 141 countries using climate, population, agriculture, emissions, and economic data from 1990 to 2020.',
+      'Trained Ridge Regression for maize production with grouped validation and tuning, achieving an R2 of 0.93.',
+      'Delivered Streamlit scenario dashboards and an LSTM forecast that reduced carbon-pricing revenue test error by around 40%.',
     ],
   },
 ]
